@@ -58,4 +58,8 @@
         url('../fonts/raleway-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/raleway-v22-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
   }
+
+  body {
+    @apply bg-dp-0 font-body text-white;
+  }
 }
