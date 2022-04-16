@@ -4,6 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+
+    fontFamily: {
+      'heading': ['Raleway', 'sans-serif'],
+      'body': ['Montserrat', 'sans-serif']
+    },
   },
   plugins: [],
 }
